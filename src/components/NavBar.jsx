@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Logo from './Logo';
+import CartWidget from './CartWidget';
 
 function NavBar() {
   return (
@@ -23,6 +24,7 @@ function NavBar() {
               <NavDropdown.Item href="#cuidadopersonal">Cuidado Personal</NavDropdown.Item>
             </NavDropdown>
           </Nav>
+          <CartWidget/>
         </Navbar.Collapse>
       </Container>
     </Navbar>
